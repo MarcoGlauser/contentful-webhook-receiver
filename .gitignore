@@ -1,6 +1,7 @@
 *.py[cod]
 __pycache__
 
+db.sqlite
 # C extensions
 *.so
 
@@ -45,3 +46,4 @@ output/*/index.html
 
 # Sphinx
 docs/_build
+/db.sqlite3
