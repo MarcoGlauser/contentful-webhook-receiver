@@ -48,6 +48,21 @@ Add Contentful Webhook Receiver's URL patterns:
         ...
     ]
 
+
+Listen for the Contentful Webhook Receiver signal:
+
+.. code-block:: python
+
+    @receiver(contentful_publish_entry)
+    def entry_published(sender, instance: WebhookInvocation, **kwargs):
+        print(instance.data['sys']['content_type']['id'])
+
+Register a Webhook on Contentful:
+
+The path added to the urlpatterns is `^contentful-webhook/$`.
+If you're adding it to the root url configuration the path will be `https://example.com/contentful-webook/`
+
+
 Features
 --------
 

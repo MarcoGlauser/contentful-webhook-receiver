@@ -7,5 +7,5 @@ from .views import WebHookReceiverView
 
 app_name = 'contentful_webhook_receiver'
 urlpatterns = [
-    url(r'^hook/$', WebHookReceiverView.as_view()),
+    url(r'^contentful-webhook/$', WebHookReceiverView.as_view()),
 ]
