@@ -21,4 +21,4 @@ install: pip install -r requirements_test.txt
 script: tox -e "$(echo py$TRAVIS_PYTHON_VERSION | tr -d .)-$DJANGO_VERSION"
 
 after_success:
-  - codecov -e TOX_ENV
+  - codecov -e "$(echo py$TRAVIS_PYTHON_VERSION | tr -d .)-$DJANGO_VERSION"
