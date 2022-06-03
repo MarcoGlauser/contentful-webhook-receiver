@@ -44,7 +44,7 @@ Add Contentful Webhook Receiver's URL patterns:
 
     urlpatterns = [
         ...
-        url(r'^', include(contentful_webhook_receiver_urls)),
+        path(r'^', include(contentful_webhook_receiver_urls)),
         ...
     ]
 
@@ -59,7 +59,7 @@ Listen for the Contentful Webhook Receiver signal:
 
 Register a Webhook on Contentful:
 
-The path added to the urlpatterns is `^contentful-webhook/$`.
+The path added to the urlpatterns is `contentful-webhook/`.
 If you're adding it to the root url configuration the path will be `https://example.com/contentful-webook/`
 
 

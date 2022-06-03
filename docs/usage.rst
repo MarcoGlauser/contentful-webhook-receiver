@@ -21,6 +21,6 @@ Add Contentful Webhook Receiver's URL patterns:
 
     urlpatterns = [
         ...
-        url(r'^', include(contentful_webhook_receiver_urls)),
+        path(r'^', include(contentful_webhook_receiver_urls)),
         ...
     ]
