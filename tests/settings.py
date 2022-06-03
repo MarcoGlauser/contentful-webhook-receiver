@@ -31,9 +31,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'contentful_webhook_receiver',
-    
-    'contentful_webhook_receiver.test_utils.test_app'
-    
+
+    'tests.test_app.apps.TestAppConfig',
+
 
     # if your app has other dependencies that need to be added to the site
     # they should be added here
