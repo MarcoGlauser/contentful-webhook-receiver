@@ -5,8 +5,8 @@ Contentful Webhook Receiver
 .. image:: https://badge.fury.io/py/contentful-webhook-receiver.svg
     :target: https://badge.fury.io/py/contentful-webhook-receiver
 
-.. image:: https://travis-ci.org/MarcoGlauser/contentful-webhook-receiver.svg?branch=master
-    :target: https://travis-ci.org/MarcoGlauser/contentful-webhook-receiver
+.. image:: https://github.com/MarcoGlauser/contentful-webhook-receiver/actions/workflows/ci/badge.svg
+    :target: https://github.com/MarcoGlauser/contentful-webhook-receiver/actions/workflows/ci/
 
 .. image:: https://codecov.io/gh/MarcoGlauser/contentful-webhook-receiver/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/MarcoGlauser/contentful-webhook-receiver
