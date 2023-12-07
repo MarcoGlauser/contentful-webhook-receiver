@@ -75,9 +75,7 @@ Does the code actually work?
 
 ::
 
-    source <YOURVIRTUALENV>/bin/activate
-    (myenv) $ pip install tox
-    (myenv) $ tox
+    poetry run tox
 
 
 Development commands
@@ -85,9 +83,20 @@ Development commands
 
 ::
 
-    pip install -r requirements_dev.txt
-    invoke -l
+    poetry install --with=dev
 
+Cutting new release
+-------
+
+::
+
+    poetry version <patch|minor|major>
+    # Update changelog
+    git add HISTORY.rst pyproject.toml contentful_webhook_receiver/__init__.py
+    NEW_RELEASE=$(poetry version --short)
+    git commit -m "Release $NEW_RELEASE"
+    git tag $NEW_RELEASE
+    git push --tags
 
 Credits
 -------
