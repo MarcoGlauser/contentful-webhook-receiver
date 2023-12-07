@@ -2,6 +2,12 @@
 
 History
 -------
+
+0.5.0 (2023-12-07)
+++++++++++++++++++
+* Add Django 5.0 compatibility
+* Add Python 3.12 compatibility
+
 0.4.0 (2022-12-21)
 ++++++++++++++++++
 
