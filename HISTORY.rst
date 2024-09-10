@@ -3,6 +3,10 @@
 History
 -------
 
+0.5.1 (2024-09-10)
+++++++++++++++++++
+* Add Django 5.1 compatibility
+
 0.5.0 (2023-12-07)
 ++++++++++++++++++
 * Add Django 5.0 compatibility
