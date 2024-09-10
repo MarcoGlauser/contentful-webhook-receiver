@@ -4,7 +4,7 @@ version = "0.6.0"
 description = "A Django package to receive Webhooks from Contentful as signals"
 authors = ["MarcoGlauser <github@mglauser.ch>"]
 license = "MIT"
-readme = 'README.rst'
+readme = 'README.md'
 repository = 'https://github.com/MarcoGlauser/contentful-webhook-receiver'
 
 [tool.poetry.dependencies]
