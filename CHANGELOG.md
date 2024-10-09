@@ -1,5 +1,10 @@
 # History
 
+## Unreleased
+
+-   Remove python 3.8 support
+-   Add python 3.13 support
+
 ## 0.6.0 (2024-09-10)
 
 -   Add Django 5.1 compatibility
