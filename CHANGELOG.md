@@ -1,6 +1,6 @@
 # History
 
-## Unreleased
+## 0.7.0 (2025-10-09)
 
 -   Remove python 3.8 support
 -   Add python 3.13 support
