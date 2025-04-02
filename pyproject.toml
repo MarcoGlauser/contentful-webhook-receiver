@@ -9,7 +9,7 @@ repository = 'https://github.com/MarcoGlauser/contentful-webhook-receiver'
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.14"
-Django = ">=4.2,<5.2"
+Django = ">=5.2,<6"
 djangorestframework = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
