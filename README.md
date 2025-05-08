@@ -77,6 +77,7 @@ Cutting new release \-\-\-\-\-\--
     git add CHANGELOG.md pyproject.toml contentful_webhook_receiver/__init__.py
     NEW_RELEASE=$(poetry version --short)
     git commit -m "Release $NEW_RELEASE"
+    git push
     git tag $NEW_RELEASE
     git push --tags
 
