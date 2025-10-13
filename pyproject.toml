@@ -8,7 +8,7 @@ readme = 'README.md'
 repository = 'https://github.com/MarcoGlauser/contentful-webhook-receiver'
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.14"
+python = ">=3.9,<3.15"
 Django = ">=4.2,<5.3"
 djangorestframework = "^3.0.0"
 
