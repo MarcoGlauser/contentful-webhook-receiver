@@ -1,5 +1,9 @@
 # History
 
+## 0.8.2 (2025-10-13)
+
+-   Add python 3.14 support
+
 ## 0.8.0 (2025-05-08)
 
 -   Remove django 5.0 support
