@@ -70,7 +70,7 @@ Does the code actually work?
 
     poetry install --with=dev
 
-Cutting new release \-\-\-\-\-\--
+Cutting new release
 
     poetry version <patch|minor|major>
     # Update changelog
