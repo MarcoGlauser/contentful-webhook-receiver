@@ -1,5 +1,10 @@
 # History
 
+## 0.9.0 (2026-01-12)
+
+-   Add django 6.0 support
+-   Remove python 3.9 support
+
 ## 0.8.2 (2025-10-13)
 
 -   Add python 3.14 support
